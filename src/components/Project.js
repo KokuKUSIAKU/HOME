@@ -8,7 +8,7 @@ const Project = (props) => {
       <div className="project-image">
         <img className="fullwidth-img" src={props.project.image} alt="" />
       </div>
-      <Link to={props.project.pageLink} style={{ textDecorationLine: "none" }}>
+      <Link to={props.project.pageLink} style={{ textDecorationLine: "none" }} target ="_blank">
         <h3 className="project-title bold1">{props.project.name}</h3>
       </Link>
       <p className="project-description">{props.project.description}</p>
@@ -16,10 +16,10 @@ const Project = (props) => {
         <div className="container-fluid">
           <div className="row">
             <button className="project-bt col-xm-2 col-md-3">
-              <Link to={props.project.pageLink} style={{ textDecorationLine: "none" }}>Site</Link>
+              <Link to={props.project.pageLink} style={{ textDecorationLine: "none" }} target ="_blank">Site</Link>
             </button>
             <button className=" project-bt  offset-md-6  col-md-3">
-              <Link to={props.project.codeLink} style={{ textDecorationLine: "none" }}>Code</Link>
+              <Link to={props.project.codeLink} style={{ textDecorationLine: "none" }} target ="_blank">Code</Link>
             </button>
           </div>
         </div>

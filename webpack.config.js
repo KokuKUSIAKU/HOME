@@ -12,13 +12,9 @@ var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
   "entry": {
     style: "./src/styles/style.css",
-    main: ["webpack-hot-middleware/client", "./src/App.js"],
+    main: "./src/App.js",
   },
 
-  devServer: {
-    contentBase: "./docs",
-    hot: true
-  },
   module: {
     rules: [
       {
@@ -43,9 +39,7 @@ module.exports = {
   },
 
   plugins: [
-    HtmlWebpackPluginConfig,
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
+    HtmlWebpackPluginConfig
   ]
 
 };
