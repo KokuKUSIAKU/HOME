@@ -8,10 +8,10 @@ const NavBar = () => (
     </button>
     <div className="collapse navbar-collapse  " id="navbarSupportedContent">
       <ul className="navbar-nav  container justify-content-end">
-        <li className="nav-item active"><a className="nav-link" href="#about">About</a></li>
-        <li className="nav-item active"><a className="nav-link" href="#skills">Skills</a></li>
-        <li className="nav-item active"><a className="nav-link" href="#portofolio">Portofolio</a></li>
-        <li className="nav-item active"><a className="nav-link" href="#contact">Contact</a></li>
+        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
+        <li className="nav-item"><a className="nav-link" href="#skills">Skills</a></li>
+        <li className="nav-item"><a className="nav-link" href="#portofolio">Portofolio</a></li>
+        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>);

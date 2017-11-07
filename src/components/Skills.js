@@ -2,7 +2,7 @@ import React from "react";
 
 const WEBDEV = {
   classNames: "skill-section",
-  imageUrl: "../../images/web_dev.png",
+  imageUrl: "https://github.com/KokuKUSIAKU/HOME/blob/master/images/web_dev.png?raw=true",
   imageDescription: "web development illustration with html, css and JavaScript coding",
   text: "I craft a cutting-edge single page website with accessilbity for all, bringing your design to life!",
   title: "WEB DEVELOPMENT",
@@ -10,7 +10,7 @@ const WEBDEV = {
 
 const RESPONSIVE = {
   classNames: "skill-section skill-section-responsive",
-  imageUrl: "../../images/web_dev_responsive.png",
+  imageUrl: "https://github.com/KokuKUSIAKU/HOME/blob/master/images/web_dev_responsive.png?raw=true",
   imageDescription: "web development illustration with html, css and JavaScript coding",
   text: "Your website avalaible on any support regardless its' size",
   title: "RESPONSIVITY",

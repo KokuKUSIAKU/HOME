@@ -1,16 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-/*
-            <button className="btn btn-outline-primary col-xm-2 col-md-3">
-              <Link className="project-bt-a" to={props.project.pageLink} style={{ textDecorationLine: "none" }} target ="_blank">Site</Link>
-            </button>
-            <button className="btn btn-outline-primary  offset-md-6  col-md-3">
-              <Link className="project-bt-a" to={props.project.codeLink} style={{ textDecorationLine: "none" }} target ="_blank">Code</Link>
-            </button>
-
-*/
-
 
 const Project = (props) => {
   return (
