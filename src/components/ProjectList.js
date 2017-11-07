@@ -4,11 +4,12 @@ import PropTypes from "prop-types";
 
 const ProjectList = (props) => (
   <section id="portofolio">
-    <article className="project-list container">
+    <h2 className = "section-title">Portofolio</h2>
+    <div className="container">
       <div className="row">
         {props.projectlist.map((project, index) => <Project project={project} key={index} />)}
       </div>
-    </article>
+    </div>
   </section >
 );
 

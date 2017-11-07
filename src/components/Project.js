@@ -1,6 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+/*
+            <button className="btn btn-outline-primary col-xm-2 col-md-3">
+              <Link className="project-bt-a" to={props.project.pageLink} style={{ textDecorationLine: "none" }} target ="_blank">Site</Link>
+            </button>
+            <button className="btn btn-outline-primary  offset-md-6  col-md-3">
+              <Link className="project-bt-a" to={props.project.codeLink} style={{ textDecorationLine: "none" }} target ="_blank">Code</Link>
+            </button>
+
+*/
+
 
 const Project = (props) => {
   return (
@@ -8,19 +18,19 @@ const Project = (props) => {
       <div className="project-image">
         <img className="fullwidth-img" src={props.project.image} alt="" />
       </div>
-      <Link to={props.project.pageLink} style={{ textDecorationLine: "none" }} target ="_blank">
+      <Link to={props.project.pageLink} style={{ textDecorationLine: "none" }} target="_blank">
         <h3 className="project-title bold1">{props.project.name}</h3>
       </Link>
       <p className="project-description">{props.project.description}</p>
       <div className="project-links ">
         <div className="container-fluid">
           <div className="row">
-            <button className="project-bt col-xm-2 col-md-3">
-              <Link to={props.project.pageLink} style={{ textDecorationLine: "none" }} target ="_blank">Site</Link>
-            </button>
-            <button className=" project-bt  offset-md-6  col-md-3">
-              <Link to={props.project.codeLink} style={{ textDecorationLine: "none" }} target ="_blank">Code</Link>
-            </button>
+            <Link className="project-bt-a project-bt-align-left col-6" to={props.project.pageLink} style={{ textDecorationLine: "none" }} target="_blank">
+              <button className="btn btn-outline-primary ">Site</button>
+            </Link>
+            <Link className="project-bt-a project-bt-align-right col-6" to={props.project.codeLink} style={{ textDecorationLine: "none" }} target="_blank">
+              <button className="btn btn-outline-primary ">Code</button>
+            </Link>
           </div>
         </div>
       </div>
