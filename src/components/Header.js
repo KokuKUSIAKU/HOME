@@ -5,8 +5,8 @@ const Header = () => (
     <div className="container">
       <h2 id="title"> Front End Developer</h2>
       <p className="about-intro"> With ground experience in HTML, CSS, JavaScript & React<br/>
-        I bring on live your project with oustanding client facing interface.<br/>
-        <strong>Currently open for new opportunity!</strong></p>
+        I bring to life your project with oustanding client facing interface
+      </p>
     </div>
   </header>);
 
