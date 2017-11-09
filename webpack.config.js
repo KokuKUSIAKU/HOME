@@ -13,6 +13,8 @@ module.exports = {
   "entry": {
     style: "./src/styles/style.css",
     main: "./src/App.js",
+    waypoint:"./src/scripts/waypoints.js",
+    animate:"./src/scripts/animate.js"
   },
 
   module: {

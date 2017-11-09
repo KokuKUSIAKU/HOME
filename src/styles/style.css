@@ -1,17 +1,23 @@
 body{
   font-family: Frank,Arial,Helvetica,sans-serif;
   background-color:rgb(221, 221, 221);
+  padding-top:4em;
 }
 
 #about{
-  padding: 15em 0 10em; 
   background-image:url("../../images/background.png"); 
   background-size:cover;
 }
 
 .about-intro{
+  color:rgb(255,255,255);
   font-size:1.5rem; 
 }
+.about-wrapper{
+  background:rgba(0, 17, 25,0.8);
+  padding:15em 0; 
+}
+
 .bold1{
   font-weight: 700;
 }
@@ -148,6 +154,15 @@ body{
 .project-title:hover{
   text-decoration: underline ;
 }
+
+.ps-relative {
+  position:relative; 
+}
+
+.ps-absolute {
+  position:absolute; 
+}
+
 .section-title {
   text-align: center; 
   font-size:3em; 
@@ -292,5 +307,62 @@ body{
     width: 300px;
     margin:1rem auto; 
   }
-  
+}
+
+/* animation part */
+.slideInLeft {
+  -webkit-animation-name:slideInLeft;
+  -webkit-animation-duration: 1.5s; 
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-fill-mode: forwards;
+  animation-name:slideInLeft ;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+.slideInRight {
+  -webkit-animation-name:slideInRight;
+  -webkit-animation-duration: 1.5s; 
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-fill-mode: forwards;
+  animation-name:slideInRight;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+.translateLeft{
+  -ms-transform: translateX(-110%);
+  -webkit-transform: translateX(-110%);
+  transform:translateX(-110%);
+}
+
+.translateRight{
+  -ms-transform: translateX(110%);
+  -webkit-transform:translateX(110%);
+  transform:translateX(110%);
+}
+@keyframes slideInLeft {
+  from {
+    -ms-transform: translateX(-110%);
+    -webkit-transform:translateX(-110%);
+    transform:translateX(-110%);  }
+  to  {
+    -ms-transform: none;
+    -webkit-transform:none;
+    transform:none; }
+}
+
+@keyframes slideInRight {
+  from {
+    -ms-transform: translateX(110%);
+    -webkit-transform:translateX(110%);
+    transform:translateX(110%);
+    }
+  to  {
+    -ms-transform: none;
+    -webkit-transform:none;
+    transform:none;
+   }
 }
