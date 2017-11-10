@@ -14,7 +14,7 @@ module.exports = {
     style: "./src/styles/style.css",
     main: "./src/App.js",
     waypoint:"./src/scripts/waypoints.js",
-    animate:"./src/scripts/animate.js"
+    index:"./src/scripts/index.js"
   },
 
   module: {
