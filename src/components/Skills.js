@@ -18,7 +18,7 @@ const RESPONSIVE = {
   imageUrl: "https://github.com/KokuKUSIAKU/HOME/blob/master/images/web_dev_responsive.png?raw=true",
   imageDescription: "web development illustration with html, css and JavaScript coding",
   text: "Your website avalaible on any support regardless its' size",
-  title: "RESPONSIVITY",
+  title: "RESPONSIVE",
 };
 
 const SkillSection = (props) => (

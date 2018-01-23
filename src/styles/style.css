@@ -284,20 +284,25 @@ body{
 
 #title{
   color: rgb(0, 102, 153);
-  font-size:5em; 
+  font-size:5rem; 
 }
 
 @media screen and (max-width:768px) {
+  .about-wrapper {
+    padding:5em 0;
+  }
   .project-image{
     height: inherit; 
     overflow: visible; 
   }
-}
-
-@media screen and (max-width:768px) {
   .skill-section-responsive{
     flex-wrap: wrap;
   }
+
+  #title{
+    font-size:3rem; 
+  }
+  
 }
 
 @media screen and (max-width:1000px) {
@@ -314,22 +319,22 @@ body{
 /* animation part */
 .slideInLeft {
   -webkit-animation-name:slideInLeft;
-  -webkit-animation-duration: 1.5s; 
+  -webkit-animation-duration: 1s; 
   -webkit-animation-timing-function: ease-in;
   -webkit-animation-fill-mode: forwards;
   animation-name:slideInLeft ;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
 
 .slideInRight {
   -webkit-animation-name:slideInRight;
-  -webkit-animation-duration: 1.5s; 
+  -webkit-animation-duration: 1s; 
   -webkit-animation-timing-function: ease-in;
   -webkit-animation-fill-mode: forwards;
   animation-name:slideInRight;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }

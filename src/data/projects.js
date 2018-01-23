@@ -11,8 +11,8 @@ const projects = [
     name: "Tic Tac Toe Game",
     description: "Build following OOP paradigm and using React, Redux ",
     image: "https://github.com/KokuKUSIAKU/HOME/blob/master/images/Tic_Tac_Toe.png?raw=true",
-    pageLink:"https://codepen.io/kkusiaku/full/PpEXGO/",
-    codeLink:"https://github.com/KokuKUSIAKU/TIC-TAC-TOE-GAME-OOP-"
+    pageLink:"https://kokukusiaku.github.io/games/",
+    codeLink:"https://github.com/KokuKUSIAKU/games/"
   },
 
   {
