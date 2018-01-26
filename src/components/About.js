@@ -1,15 +1,15 @@
 import React from "react";
 
-const Header = () => (
-  <header id="about" className="header">
+const About = () => (
+  <section id="about" className="header">
     <div className="about-wrapper">
       <div className="container">
-        <h2 id="title">Front End Developer</h2>
+        <h2 id="title">FRONT END DEVELOPER</h2>
         <p className="about-intro"> With ground experience in HTML, CSS, JavaScript & React<br />
           I bring to life your project with awe-inspiring interface.
         </p>
       </div>
     </div>
-  </header>);
+  </section>);
 
-export default Header; 
+export default About; 

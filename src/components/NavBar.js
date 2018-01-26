@@ -1,19 +1,55 @@
 import React from "react";
 
-const NavBar = () => (
-  <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
-    <a className="navbar-brand"><span id="fn">Koku</span><span id="ln"> KUSIAKU</span></a>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse  " id="menu">
-      <ul className="navbar-nav  container justify-content-end">
-        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-        <li className="nav-item"><a className="nav-link" href="#skills">Skills</a></li>
-        <li className="nav-item"><a className="nav-link" href="#portofolio">Portofolio</a></li>
-        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>);
 
-export default NavBar; 
+
+const NavBar = () => (
+  <header className="page-header navbar-light bg-light fixed-top">
+    <div id="page-header-container">
+      <div className="container">
+        <div className="row row-border justify-content-between">
+          <div className=" brand-container col-2 menu-border">
+            <a href="#" className="navbar-brand">Koku KUSIAKU</a>
+          </div>
+          <div className="menu-container col-6 menu-border">
+            <nav id="menu1" className="navbar navbar-expand-md navbar-light bg-light menu-border">
+              <p></p>
+              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div className="collapse navbar-collapse" id="menu">
+                <ul className="navbar-nav  container justify-content-end">
+                  <li className="nav-item"><a className="nav-link" href="#about">ABOUT</a></li>
+                  <li className="nav-item"><a className="nav-link" href="#skills">SKILLS</a></li>
+                  <li className="nav-item"><a className="nav-link" href="#portofolio">PORTOFOLIO</a></li>
+                  <li className="nav-item"><a className="nav-link" href="#contact">CONTACT</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>);
+
+export default NavBar;
+/*
+  <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div className="container ">
+      <div className="row no-gutters justify-content-between">
+        <p className="navbar-brand col-2">Koku KUSIAKU</p>
+
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse col-6" id="menu">
+          <ul className="navbar-nav  container justify-content-end">
+            <li className="nav-item"><a className="nav-link" href="#about">ABOUT</a></li>
+            <li className="nav-item"><a className="nav-link" href="#skills">SKILLS</a></li>
+            <li className="nav-item"><a className="nav-link" href="#portofolio">PORTOFOLIO</a></li>
+            <li className="nav-item"><a className="nav-link" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>)
+*/

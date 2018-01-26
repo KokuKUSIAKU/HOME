@@ -3,7 +3,7 @@ import { render } from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Contact from "./components/contact";
-import Header from "./components/Header";
+import About from "./components/About";
 import Main from "./components/Main";
 import NavBar from "./components/NavBar"; 
 
@@ -11,7 +11,7 @@ const router = (
   <Router>
     <div>
       <NavBar/>
-      <Header />
+      <About />
       <Main />
       <Contact/>
     </div>
