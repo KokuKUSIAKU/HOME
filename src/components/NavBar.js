@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const NavBar = () => (
   <header className="page-header navbar-light bg-light fixed-top">
     <div id="page-header-container">
@@ -32,24 +30,3 @@ const NavBar = () => (
   </header>);
 
 export default NavBar;
-/*
-  <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
-    <div className="container ">
-      <div className="row no-gutters justify-content-between">
-        <p className="navbar-brand col-2">Koku KUSIAKU</p>
-
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse col-6" id="menu">
-          <ul className="navbar-nav  container justify-content-end">
-            <li className="nav-item"><a className="nav-link" href="#about">ABOUT</a></li>
-            <li className="nav-item"><a className="nav-link" href="#skills">SKILLS</a></li>
-            <li className="nav-item"><a className="nav-link" href="#portofolio">PORTOFOLIO</a></li>
-            <li className="nav-item"><a className="nav-link" href="#contact">CONTACT</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>)
-*/
